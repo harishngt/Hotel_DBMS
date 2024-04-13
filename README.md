@@ -1,81 +1,48 @@
-# HOTEL-MANAGEMENT-SYSTEM-DATABASE-PROJECT
+# Hotel Management System Database Project
 
-# Details
+## Details
 
-A hotel is a hive of numerous operations such as front office, booking, and reservation, inventory, material management, quality management, security, energy management, housekeeping, CRM and more.
+A hotel comprises numerous operations such as front office, booking and reservation, inventory, material management, quality management, security, energy management, housekeeping, CRM, and more.
 
+A hotel can be part of different Hotel Chains, each of which may have multiple hotels. Each hotel contains multiple rooms and floors, with rooms available in different types. Each room type has its own price and description. A hotel employs staff to manage the services provided to customers. Customers can book rooms either online or by cash payment at the hotel.
 
-A hotel can be apart of different Hotel Chains. A hotel chain my have multiple hotels. A hotel has multiple rooms and floors, and these rooms can be of different types. By room type, each room has the different price and description. 
-A hotel has some employees to manage the services provided to customers. The customer can book the room either online or by cash payment at the hotel.
+Guest records are stored in the hotel database, containing customer identity, address, check-in time, check-out time, etc.
 
+## Hotel Information
 
-The guest record is stored in hotel database which contains customer identity, his address, check in time, check out time, etc.
+### Hotel Chain
+- Name of the hotel chain.
 
-# Hotel info should include:
+### Hotel
+- Name of the hotel.
+- URL of the hotel website.
+- Hotel characteristics (description).
+- Star rating with corresponding image.
+- Room capacity and floor count.
+- Address of the hotel.
 
-Countries
+## Other Requirements
 
-Hotel Chain Name
+- Track guests based on their name, address, and city.
+- Track bookings based on dates, booking type, and room count.
+- Designate room types with a standard rate, room description, and smoking allowance.
+- Define room rate periods for discounts during various times of the year (e.g., Jan to March, July to Aug, Sept to Dec).
 
-Hotel Name
+## Queries
 
-Hotel URL
+1. How many distinct guests have made bookings for a particular month?
+2. How many available rooms are in a particular hotel for a given date?
+3. How many hotels are in a hotel chain?
+4. How many bookings has a customer made in one year?
+5. How many rooms are booked in a particular hotel on a given date?
+6. List all the unique countries where hotels are located.
+7. How many rooms are available in a given hotel?
+8. List all the hotels that have a URL available.
+9. List the rate for a room at a given time during the year.
 
-Hotel Characteristics (Description)
+## Additional Requirements
 
-A Hotel must have one and only one STAR_RATING
-
-Each star rating has an image
-
-A Hotel has a ROOM CAPACITY and FLOOR COUNT
-
-A Hotel can have one and only one ADDRESS.
-
-# Other hotel requirements:
-
-Track guests based on their name, address, city
-
-Track bookings based on dates, booking type, and room count
-
-Designate Room Types with a standard rate, room description, and if smoking is allowed
-
-There will be room rate periods to give discounts at various times of the year (e.g. Jan to March, July to Aug, Sept to Dec)
-
-# Queries that will be required:
-
-How many distinct guest have made bookings for a particular month?
-
-How many available rooms are in a particular hotel for a given date?
-
-How many hotels are in a hotel chain?
-
-How many books has a customer made in one year?
-
-How many rooms are booked in a particular hotel on a given date?
-
-List all the unique countries hotels are located in.
-
-How many rooms are available in a given hotel?
-
-List all the hotels that have a URL available.
-
-List the rate for a room at a given time during the year.
-
-# Additional Requirements:
-
-Work in groups of 2 or 3 to complete the work order
-
-Each team member must track their work and submit with their final project files (Use the included time-tracker.xlsx file)
-
-Each team member must submit a table breakdown in written form for at least 2 tables in the database. These tables must be unique from the other members in your group.
-
-Work in teams to determine the tables and relationships required
-
-Database must be normalized to 3rd normal form
-
-Create an EER Model of the completed database structure (Image file is acceptable)
-
-Make sure to include primary/foreign keys where appropriate
-
-Review the attached work log for additional views/functions required
-
+- Determine the tables and relationships required.
+- Normalize the database to 3rd normal form.
+- Create an Enhanced Entity-Relationship (EER) Model of the completed database structure (Image file is acceptable).
+- Include primary/foreign keys where appropriate.
